@@ -4,7 +4,7 @@ on:
     branches: [main]
 jobs:
   greeting:
-   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Say Hallo
         run: echo Hallo DevOpenSpace 2023
