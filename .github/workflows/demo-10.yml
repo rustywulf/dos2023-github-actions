@@ -17,4 +17,4 @@ jobs:
     steps:
       - name: step-2 Name
         id: step-2
-        run: echo ${{ needs.jobSource.outputs.greeting }}
+        run: echo ${{ needs.jobSource.outputs.greetings }}
